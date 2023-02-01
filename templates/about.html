@@ -2,10 +2,15 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
    <title>My Website - About</title>
 </head>
 <body>
    <h1>Rushion Fisher</h1>
- <p> 	My name is Rushion Fisher, a 3rd year Computer Science Major. I would like to become a Web Developer in the future, as I really enjoy creating websites. A few hobbies of mine include watching football, writing songs and spending time with my favourite people.</p>
+ <p> 	My name is Rushion Fisher, a 3rd year Computer Science Major. I would like to become a Web Developer in the future, as I really enjoy creating websites. A few hobbies of mine include watching football, writing songs and spending time with my favourite people. While you are busy finding out that I am just a regular student with stress and anxiety, please enjoy the image of the Rolls Royce Interior below, thank you. </p>
+ <img src="{{url_for('static', filename='luxury.jpg')}}" >
 </body>
+<footer>
+    &copy;Copyright Rushion Fisher 2023
+</footer>
 </html>
